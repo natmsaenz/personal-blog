@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './Home.css'
+import Navbar from './components/navbar/navbar'
 
-function Home() {
+const Home = () =>{
 
   return (
     <>
-      
+      <Navbar/>
     </>
   )
 }
