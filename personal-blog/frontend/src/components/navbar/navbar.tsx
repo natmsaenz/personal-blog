@@ -1,22 +1,23 @@
-import { useState } from "react";
+import {Link} from 'react-router-dom'
 import './navbar.css'
+import DownloadResumeButton from "../download-resume/download-resume";
 
 
-const Navbar = () =>{
+const Navbar: React.FC = () =>{
     return(
-        <div className="Navbar">
+        <nav className="Navbar">
             <div className="NavbarContainer">
-                <a href="#">Home</a>
-                <a href="#">About me</a>
-                <a href="#">My work</a>
-                <a href="#">Let's connect</a>
-                <a href="#">Download my CV</a>
+                <Link to="/">Home</Link>
+                <Link to="/about-me">About me</Link>
+                <Link to="/my-work">My work</Link>
+                <Link to="/connect">Let's connect</Link>
+                <DownloadResumeButton/>
 
 
 
             </div>
 
-        </div>
+        </nav>
     )
 }
 
