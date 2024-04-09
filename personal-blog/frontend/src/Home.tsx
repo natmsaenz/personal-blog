@@ -1,11 +1,11 @@
 import './Home.css'
 import Navbar from './components/navbar/navbar'
 
-const Home = () =>{
+const Home:React.FC = () =>{
 
   return (
     <div>
-      <Navbar/>
+    <Navbar />  
     </div>
   )
 }

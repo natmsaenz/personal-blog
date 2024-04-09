@@ -1,13 +1,13 @@
 //import { useState } from "react";
-import './download-resume.css'
+import "./download-resume.css";
 
+const DownloadResumeButton: React.FC = () => {
+  return (
+    <button className="DownloadResume">
+      <span>Download my resume</span>
+      
+    </button>
+  );
+};
 
-const DownloadResumeButton = () =>{
-return(
-    <>
-    <button className="DownloadResume">Download my resume</button>
-    </>
-)
-}
-
-export default DownloadResumeButton
+export default DownloadResumeButton;
