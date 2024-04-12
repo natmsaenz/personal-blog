@@ -1,4 +1,3 @@
-//import { useState } from "react";
 import "./download-resume.css";
 
 const DownloadResumeButton: React.FC = () => {
